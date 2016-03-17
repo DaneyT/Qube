@@ -1,0 +1,417 @@
+/*body {*/
+    /*background-color: white;*/
+    /*text-align: inherit;*/
+/*}*/
+
+
+@font-face{
+    font-family: 'PoetsenOne-Regular';
+    src: url('../fonts/PoetsenOne-Regular.ttf');
+}
+h4 {
+    text-align: left;
+    margin-bottom: -15px;
+    font-family: 'PoetsenOne-Regular';
+}
+h5 {
+    text-align: center;
+    font-family:'PoetsenOne-Regular';
+}
+.subtitle {
+    font-size: 25pt;
+    font-family: 'PoetsenOne-Regular';
+    padding-top: 25px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+.toplogo{
+    width:54px;
+    height:74px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0%;
+    float: left;
+}
+.mainproduct{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.slogan{
+    margin-top: 5%;
+}
+
+.circle1 {
+    position:absolute; top:250px; left:250px;
+    width: 0px; height: 0px;
+    border:2px solid grey;
+    padding:20px;
+    border-radius:50%;
+}
+
+
+.logincloud{
+    display: block;
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+}
+
+.loginimage{
+    width: 10%;
+    height: 10%;
+}
+
+.loginarrow{
+    display: block;
+    width: 15%;
+    margin-top: 15%;
+    margin-left: 25%;
+    position: absolute;
+}
+
+.logintext{
+    color: teal;
+    display:block;
+    /*font-size: 70%;*/
+    font-size: 3em;
+
+    font-weight: bold;
+    margin-top: 6%;
+    text-align: center;
+    margin-left: 18%;
+    position: absolute;
+
+}
+.contents {
+    padding: 0 25px;
+}
+
+.product{
+    margin-bottom: -1%;
+}
+.subhead {
+    font-size: 18pt;
+    font-weight: 900;
+    -moz-text-decoration-color: red; /* Code for Firefox */
+    text-decoration-color: red;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    padding: 0 30px;
+    /* inline-block space fix */
+}
+.col-md-12 {
+    padding-bottom:60px;
+}
+.panel-footer {
+    padding-bottom: 60px;
+}
+.circleSize{
+    width:50px;
+    height:50px;
+    float:left;
+}
+
+
+.circle {
+    position: absolute;
+    text-align: center;
+    margin-top:180px;
+
+}
+.circle a {
+    display: block;
+    position: relative;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    color: black;
+}
+.circle a:hover,
+.circle a:focus {
+    transform: scale(1.5);
+    text-decoration: none;
+    color: black;
+}
+.circle a .circleText {
+    visibility:hidden;
+}
+
+.circle a:hover .circleText {
+    visibility:visible;
+}
+
+
+
+
+.circleSize2{
+    width:50px;
+    height:50px;
+    float:left;
+}
+.circle2 {
+    position: absolute;
+    text-align: center;
+    margin-top:270px;
+
+}
+.circle2 a {
+    display: block;
+    position: relative;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    color: black;
+}
+.circle2 a:hover,
+.circle2 a:focus {
+    transform: scale(1.5);
+    text-decoration: none;
+    color: black;
+}
+.circle2 a .circleText2 {
+    visibility:hidden;
+}
+
+.circle2 a:hover .circleText2 {
+    visibility:visible;
+}
+
+
+
+
+.circleSize3{
+    width:50px;
+    height:50px;
+    float:left;
+}
+.circle3 {
+    position: absolute;
+    text-align: center;
+    margin-top:360px;
+
+}
+.circle3 a {
+    display: block;
+    position: relative;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    color: black;
+}
+.circle3 a:hover,
+.circle3 a:focus {
+    transform: scale(1.5);
+    text-decoration: none;
+    color: black;
+}
+.circle3 a .circleText3 {
+    visibility:hidden;
+}
+
+.circle3 a:hover .circleText3 {
+    visibility:visible;
+}
+#map {
+    width: 500px;
+    height: 400px;
+    background-color: #CCC;
+}
+
+/* Base blocks meter CSS */
+.b-gauge               {position: relative; width: 100%; height: 100%; box-sizing: border-box; font-family: Arial, sans-serif}
+.b-gauge__block        {position: absolute; overflow:visible; top: 0; left: 0; bottom: 0; right: 0; }
+
+/* Color circles */
+.b-gauge__paths        {width: 100%; height: 100%; }
+.b-gauge__path         {}
+
+/* Arrow */
+.b-gauge__arrow        {-webkit-transform-origin: 50% 100%; -moz-transform-origin: 50% 100%; transform-origin: 50% 100%;}
+.b-gauge__arrow-circle {}
+
+/* Labels */
+.b-gauge__labels       {}
+.b-gauge__label        {position: absolute}
+
+/* Marks */
+.b-gauge__marks        {}
+.b-gauge__mark         {position: absolute; background: #ccc; width: 1px; height: 4px; }
+
+/*Responsive graph*/
+
+
+
+* {
+  @include box-sizing(border-box);
+}
+
+$pad: 20px;
+
+.grid {
+  background: white;
+  margin: 0 0 $pad 0;
+
+  &:after {
+    /* Or @extend clearfix */
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+[class*='col-'] {
+  float: left;
+  padding-right: $pad;
+  .grid &:last-of-type {
+    padding-right: 0;
+  }
+}
+.col-2-3 {
+  width: 66.66%;
+}
+.col-1-3 {
+  width: 33.33%;
+}
+.col-1-2 {
+  width: 100%;
+}
+.col-1-4 {
+  width: 25%;
+}
+.col-1-8 {
+  width: 12.5%;
+}
+
+/* Opt-in outside padding */
+.grid-pad {
+  padding: $pad 0 $pad $pad;
+  [class*='col-']:last-of-type {
+    padding-right: $pad;
+  }
+}
+.chart {
+  width: 100%;
+  height: 600px;
+}
+
+.bgcolor{
+background: -webkit-linear-gradient(red, red 20%,orange, orange 50%,green, green 50%);
+}
+
+#bgcolor{
+background: -webkit-linear-gradient(red, red 20%,orange, orange 50%,green, green 50%);
+}
+
+
+#meter1{
+float:left;
+width: 50%;
+
+}
+
+.gauge2{
+    /* Set the margin-left and margin-right automatically set */
+    margin-left: 20%;
+}
+
+#meter2{
+float: right;
+width: 50%;
+}
+
+.gauge2{
+    /* Set the margin-left and margin-right automatically set */
+    margin-left: 20%;
+}
+
+#meter3{
+float: left;
+width: 50%;
+}
+
+.gauge3{
+    /* Set the margin-left and margin-right automatically set */
+    margin-left: 20%;
+}
+
+#meter4{
+float: right;
+width: 50%;
+}
+
+.gauge4{
+    /* Set the margin-left and margin-right automatically set */
+    margin-left: 20%;
+}
+
+#meter5{
+float: left;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.gauge5{
+    /* Set the margin-left and margin-right automatically set */
+    margin-left: 20%;
+}
+
+#meter6{
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.gauge6{
+    /* Set the margin-left and margin-right automatically set */
+    margin-left: 33%;
+}
+
+#linktext{
+font-size: 1.5vw;
+}
+
+.ui-dialog-osx {
+    -moz-border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+    border-radius: 0 0 8px 8px; border-width: 0 8px 8px 8px;
+}
+
+#coinfodiv{
+display: none;
+}
+
+#formaldehydeinfodiv{
+display: none;
+}
+
+#methaneinfodiv{
+display: none;
+}
+
+#pminfodiv{
+display: none;
+}
